@@ -1975,7 +1975,7 @@ async function starts() {
 					break
 				//frendowner
 				case `addadmin`:
-                   if (!isOwner) return reply('Perintah ini hanya bisa di gunakan oleh Owner Nafiz!', id)
+                   if (!isOwner) return reply('Perintah ini hanya bisa di gunakan oleh Owner Thurz!', id)
                    for (let i = 0; i < mentionedJidList.length; i++) {
                    adminNumber.push(mentionedJidList[i])
                    fs.writeFileSync('./lib/database/admin.json', JSON.stringify(adminNumber))

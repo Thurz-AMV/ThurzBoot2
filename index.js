@@ -26,9 +26,9 @@ const anime = JSON.parse(fs.readFileSync('./src/anime.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
-            + 'FN:CO YUKINIKO\n' // MENDING LU TOBAT SU!
-            + 'ORG:Creator YUKINIKO;\n' // KASIH CREDITS GUA SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=6287720646259:+62 877-2064-6259\n' // JANGAN KEK BABI SU
+            + 'FN:CO Thurz\n' // MENDING LU TOBAT SU!
+            + 'ORG:Creator Thurz;\n' // KASIH CREDITS GUA SU!!!
+            + 'TEL;type=CELL;type=VOICE;waid=6289637186819:+62 896-3719-6819\n' // JANGAN KEK BABI SU
             + 'END:VCARD'
 prefix = '.'
 blocked = []
@@ -140,9 +140,9 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6287720646259@s.whatsapp.net"] // replace this with your number
-			const adminbotnumber = ["6287720646259@s.whatsapp.net"]
-			const frendsowner = ["6289655478810@s.whatsapp.net"]
+			const ownerNumber = ["6289637186819@s.whatsapp.net"] // replace this with your number
+			const adminbotnumber = ["6289637186819@s.whatsapp.net"]
+			const frendsowner = ["6289637186819@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
